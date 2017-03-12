@@ -196,7 +196,7 @@
 				TargetAttributes = {
 					F5C55F5D1E6F83AA008D1B78 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PE9VXC3HPB;
+						DevelopmentTeam = J73Y2DMB58;
 						ProvisioningStyle = Automatic;
 					};
 					F5C55F741E6F83AB008D1B78 = {
@@ -419,10 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PE9VXC3HPB;
+				DEVELOPMENT_TEAM = J73Y2DMB58;
 				INFOPLIST_FILE = Beancounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = brobasino.Beancounter;
+				PRODUCT_BUNDLE_IDENTIFIER = net.bitjanitor.Beancounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,10 +433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PE9VXC3HPB;
+				DEVELOPMENT_TEAM = J73Y2DMB58;
 				INFOPLIST_FILE = Beancounter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = brobasino.Beancounter;
+				PRODUCT_BUNDLE_IDENTIFIER = net.bitjanitor.Beancounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,6 +520,7 @@
 				F5C55F8B1E6F83AB008D1B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C55F8C1E6F83AB008D1B78 /* Build configuration list for PBXNativeTarget "BeancounterTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				F5C55F8E1E6F83AB008D1B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5C55F8F1E6F83AB008D1B78 /* Build configuration list for PBXNativeTarget "BeancounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +538,7 @@
 				F5C55F911E6F83AB008D1B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
